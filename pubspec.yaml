@@ -1,0 +1,10 @@
+name: rick_and_morty_app
+description: Aplicacion de consola inspirada en Rick and Morty.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  mysql1: ^0.20.0
+  http: ^1.0.0
