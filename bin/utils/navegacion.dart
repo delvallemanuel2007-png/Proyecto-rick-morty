@@ -26,13 +26,13 @@ void mostrarMenuUsuario() {
 
 Future<bool> gestionarMenuPrincipal(int opcion) async {
   switch (opcion) {
-    case 2:
+    case 1:
       await flujoRegistro();
       break;
-    case 3:
+    case 2:
       await flujoLogin();
       break;
-    case 1:
+    case 0:
       print('Hasta luego.');
       return false;
     default:
